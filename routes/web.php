@@ -13,6 +13,9 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', function(){
+/*Route::get('/', function(){
 	return view('index');
-})->name('home');
+})->name('home');*/
+Route::get('/', "PaginasControlador@inicio");
+Route::get('/inicio', "PaginasControlador@inicio");
+Route::get('/registrarDonacion', "PaginasControlador@registrodonacion");
