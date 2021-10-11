@@ -19,3 +19,4 @@ use Illuminate\Support\Facades\Route;
 Route::get('/', "PaginasControlador@inicio");
 Route::get('/inicio', "PaginasControlador@inicio");
 Route::get('/registrarDonacion', "PaginasControlador@registrodonacion");
+Route::get('/historia',"PaginasControlador@historia");

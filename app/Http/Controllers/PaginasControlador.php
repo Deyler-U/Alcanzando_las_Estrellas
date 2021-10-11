@@ -13,5 +13,9 @@ class PaginasControlador extends Controller
 
     public function registrodonacion(){
     	return view('formularioregistro');
-    }    
+    } 
+
+    public function historia(){
+    	return view('historia');
+    }   
 }
