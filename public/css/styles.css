@@ -2450,3 +2450,28 @@ a:hover.back-to-top {
 	/* end of navigation */
 }
 /* end of min-width width 1200px */
+/*extras*/
+.banner-bottom, .banner, .inner-sec-layer, .contact, .skills, .edu-exp, .projects {
+    padding: 4em 5em;
+}
+.services{
+    background: #f6f6f6;
+}
+.service-in .card {
+    padding: 1.5em .5em;
+    border: none;
+    transition: none;
+    background: #fff;
+	box-shadow: 5px 5px 10px 0 rgba(76, 110, 245, .1);
+}
+.service-in .card h5.card-title {
+    font-size: 20px;
+    letter-spacing: 1px;
+}
+.service-in .card span.fa {
+    font-size: 2em;
+    color: #3369e7;
+}
+.service-in p.card-text {
+    font-size: 25px;
+}
